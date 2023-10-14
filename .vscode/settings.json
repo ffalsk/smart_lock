@@ -1,0 +1,30 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "cmake.configureOnOpen": false,
+  "idf.portWin": "COM17",
+  "idf.adapterTargetName": "esp32c3",
+  "idf.openOcdConfigs": ["board/esp32c3-builtin.cfg"],
+  "idf.flashType": "UART",
+  "sonarlint.pathToCompileCommands": "${workspaceFolder}\\build\\compile_commands.json",
+  "files.associations": {
+    "sdkconfig.h": "c",
+    "iomanip": "cpp",
+    "freertos.h": "c",
+    "main.h": "c",
+    "array": "c",
+    "deque": "c",
+    "list": "c",
+    "string": "c",
+    "unordered_map": "c",
+    "vector": "c",
+    "string_view": "c",
+    "initializer_list": "c",
+    "regex": "c",
+    "*.tcc": "cpp",
+    "time.h": "c",
+    "string.h": "c",
+    "cstdarg": "cpp",
+    "cstdint": "cpp",
+    "iostream": "cpp"
+  }
+}
